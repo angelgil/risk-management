@@ -61,33 +61,33 @@ annotate service.Risks with @(
     UI.LineItem : [
         {
             $Type : 'UI.DataField',
-            Label : 'title',
+            Label : 'Title',
             Value : title,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'prio',
+            Label : 'Priority',
             Value : prio,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'descr',
+            Label : 'Description',
             Value : descr,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'impact',
+            Label : 'Impact',
             Value : impact,
         },
         {
             $Type : 'UI.DataField',
-            Label : 'criticality',
+            Label : 'Criticality',
             Value : criticality,
         },
         {
             $Type : 'UI.DataField',
             Value : supplier_BusinessPartner,
-            Label : 'supplier_BusinessPartner',
+            Label : 'Business Partner',
         },
     ],
 );
